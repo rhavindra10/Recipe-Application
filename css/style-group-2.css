@@ -1,0 +1,330 @@
+::placeholder {
+    color: rgba(128, 128, 128, 0.377);
+    opacity: 1; /* Firefox */
+  }
+  
+  :-ms-input-placeholder { /* Internet Explorer 10-11 */
+   color: gray
+  }
+  
+  ::-ms-input-placeholder { /* Microsoft Edge */
+   color: gray
+  }
+
+.group2{
+    position: relative;
+    width: 100%;
+    min-height: 500px;
+    max-height: auto;
+ 
+    overflow: hidden;
+      
+       background: rgba(255, 205, 205, 0.5);
+   }
+
+.boxsearch2{
+    width: 100%;
+    height: 100px;
+    text-align: center;
+    background-color: rgb(255, 154, 145);
+    overflow: hidden;
+    vertical-align: middle;
+    padding-top: 0px;
+   
+}
+
+.boxsearch2 .box{
+    width: 400px;
+    margin:25px auto 25px auto;
+  
+    display: flex;
+    border-radius:100px 100px 100px 100px;
+    -moz-border-radius:100px 100px 100px 100px;
+    -webkit-border-radius:100px 100px 100px 100px;
+    overflow: hidden;
+ 
+}
+
+.boxsearch2 .box input{
+    font-size: larger;
+    padding-left: 5%;
+    height: auto;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    width: 80%;
+  border: none;
+    color: #FF857A;
+   outline: none;
+   border-radius:100px 0px 0px 100px;
+   -moz-border-radius:100px 0px 0px 100px;
+   -webkit-border-radius:100px 0px 0px 100px;
+}
+
+.boxsearch2 .boxi{
+    
+    border-radius:0px 50px 50px 0px;
+    -moz-border-radius:0px 50px 50px 0px;
+    -webkit-border-radius:0px 50px 50px 0px;
+    border:transparent ;
+
+  cursor: pointer;
+ background-color:rgb(253, 87, 87) ;
+    width: 20%;
+    outline: none;
+    color: white;
+   
+}
+
+
+.boxsearch2 .boxi:hover {
+ 
+    color:#FF857A;
+    background-color:rgb(255, 199, 199) ;
+    outline: none;
+     
+  }
+
+  
+
+.boxsearch2 .box .boxi i{
+    font-size: 30px;
+position: relative;
+    margin-top: 5px;
+
+
+
+   
+   
+}
+ 
+/* box set */
+.boxlist {
+  
+  margin: 30px;
+
+}
+.boxlist .list-inp{
+    margin: 0px;
+    color: #FF857A;
+    font-family: "ubuntu";
+ 
+}
+.boxlist .list-inp h1{
+ background: transparent;
+}
+
+.boxlist .list-inp h1 i{
+    float: right;
+ }
+ 
+.boxlist .list-inp h1::after{
+    display: block;
+    content: "";  
+    margin-top: 12px;
+   background-color: #F85E6A;
+   height: 2px;
+   width: 100%;
+  transition-duration: 0.3s;
+    
+}
+
+
+
+
+
+
+/* box item */
+
+.boxitem{
+ 
+    padding: 10px;
+
+    /* border: 2px solid black; */
+    display: flex;
+    flex-flow:  wrap;
+    justify-content: space-around;
+    margin-bottom: 50px;
+  
+    
+}
+.boxitem::after{
+    content: "";
+    flex: auto;
+
+}
+.boxperitem{
+   
+   margin: 34px;
+    background-color: rgb(82, 82, 82);
+outline: none;
+width: 20%;
+height: auto ;
+max-height: auto;
+border-radius: 10px;
+overflow: hidden;
+
+/* box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); */
+display: block;
+}
+.boxperitem:hover{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.185);
+    /* border: 2px solid salmon; */
+    
+}
+.boxperitem .grid1{
+    position: relative;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height:210px;
+  
+
+  
+}
+.boxperitem .grid1 p{
+    margin: 0;
+    right: 0;
+    width: 60px;
+    line-height: 30px;
+    border-radius:0px 0px 0px 10px;
+    text-align: center;
+    position: absolute;
+    z-index: 0;
+    padding: 5px;
+    background-color: rgba(255, 144, 144, 0.473);
+    overflow: hidden;
+    color: white;
+
+}
+.boxperitem .grid1 img{
+    width: 100%;
+    height:100%;
+    
+    margin: auto;
+}
+.boxperitem .grid2 {
+  background-color: rgb(255, 255, 255);
+    width: 100%;
+    height:auto;
+    /* border: 2px solid black; */
+    overflow: none;
+    margin: 0;
+    text-align: left;
+}
+
+
+
+
+.boxperitem .grid2 h2{
+    font-family: "ubuntu";
+    overflow-wrap: hidden;
+    margin: 0;
+    padding: 2%;
+    width: 100%;
+    font-weight: bold;
+     text-align: left;
+    height: auto;
+    position: relative;
+    font-size: large;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.404);
+    
+}
+.boxperitem .grid2 h2::before{
+    font-family: "ubuntu";
+   content: "";
+    /* background-color: rgba(0, 0, 0, 0.404); */
+    
+}
+
+/* .boxperitem .grid2 .recipes-text {
+    background-color: rgb(255, 255, 255);
+    padding: 10px;
+    height: auto;
+    font-family: "ubuntu";
+
+}
+.boxperitem .grid2 .recipes-text b{
+
+    font-family: "ubuntu";
+    font-weight: bold;
+}
+.boxperitem .grid2 .recipes-text p{
+
+    font-family: "ubuntu";
+
+} */
+
+.boxperitem .grid2 .spn-1{
+    background-color: rgb(255, 215, 211);
+    height:100%;
+    max-height: 100%;
+    padding: 0px;
+    margin: 0;
+    overflow: hidden;
+    display: flex;
+    
+    
+}
+.boxperitem .grid2 .spn-1 div{
+ 
+    width: 50%;
+    line-height: 100px;
+   background-color: rgb(240, 188, 140);
+    padding: 0px;
+    
+}
+
+
+.boxperitem .grid2 span{
+    position: relative;
+
+
+}
+.boxperitem .grid2 span:active {
+  background-color: transparent;
+}
+.boxperitem .grid2 span:hover .fa-heart{
+color: rgb(253, 95, 95);
+}
+.boxperitem .grid2 span:hover .fa-comment{
+color: rgb(100, 100, 100);
+}
+.boxperitem .grid2 span:active i{
+color: rgb(255, 199, 211);
+
+}
+
+.boxperitem .grid2 span i{
+font-size: 30px;
+margin: 5px 5px 0px 20px ;
+cursor: pointer;
+color: whitesmoke;
+/* background-color: brown; */
+
+   
+}
+
+.boxperitem .grid2 .spn-1 .div2 {
+ 
+    justify-content: end;
+    padding: 0px;
+    text-align: right;
+     
+ }
+.boxperitem .grid2  .spn-1 a{
+    font-size: 20px;
+font-family: "Ubuntu";
+color: rgb(109, 109, 109);
+text-decoration: none;  
+background-color: rgb(253, 189, 177);
+z-index: 2;
+padding: 40px;
+line-height: 40px;
+}
+
+.boxperitem .grid2 span a:hover{
+    background-color: rgb(136, 136, 136);
+    color: rgb(255, 255, 255);
+}

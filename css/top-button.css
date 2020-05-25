@@ -1,0 +1,35 @@
+.top-button{
+    cursor: pointer;
+   
+  
+    position: fixed;
+    font-size: 50px;
+    z-index: 6;
+    right: 30;
+    bottom: 30;
+
+    text-align: center;
+
+   
+}
+.top-button i {
+    border-radius: 100%;
+    color: lightcoral;
+    width: 50px;
+    height: 50px;
+    background-color: lightcyan;
+    font-size: 20px;
+    line-height: 50px;
+    cursor: pointer;
+    position: relative;
+
+      top: ;
+   
+
+   
+}
+.top-button i:hover {
+    color: white;
+    background-color: lightcoral;
+   
+}
